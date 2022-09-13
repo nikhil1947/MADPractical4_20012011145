@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="20sp"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="210sp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            tools:ignore="MissingConstraints"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Web Url"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="210sp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            tools:ignore="MissingConstraints"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Web Url"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="100sp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/browse"
+            android:layout_width="130sp"
+            android:layout_height="55sp"
+            android:orientation="vertical"
+            android:text="Browse"
+            tools:ignore="MissingConstraints"
+            app:cornerRadius="40sp"
+            android:textAllCaps="false"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/call"
+            android:layout_width="130sp"
+            android:layout_height="55sp"
+            android:orientation="vertical"
+            android:text="Call"
+            app:layout_constraintTop_toBottomOf="@+id/browse"
+            android:layout_marginTop="20sp"
+            tools:ignore="MissingConstraints"
+            app:cornerRadius="40sp"
+            android:textAllCaps="false"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/contact"
+            android:layout_width="130sp"
+            android:layout_height="55sp"
+            android:orientation="vertical"
+            android:text="Contact"
+            app:layout_constraintTop_toBottomOf="@+id/call"
+            android:layout_marginTop="20sp"
+            tools:ignore="MissingConstraints"
+            app:cornerRadius="40sp"
+            android:textAllCaps="false"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/calllog"
+            android:layout_width="130sp"
+            android:layout_height="55sp"
+            android:orientation="vertical"
+            android:text="Call Log"
+            app:layout_constraintTop_toBottomOf="@+id/contact"
+            android:layout_marginTop="20sp"
+            tools:ignore="MissingConstraints"
+            app:cornerRadius="40sp"
+            android:textAllCaps="false"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gallery"
+            android:layout_width="130sp"
+            android:layout_height="55sp"
+            android:orientation="vertical"
+            android:text="Gallery"
+            app:layout_constraintTop_toBottomOf="@+id/calllog"
+            android:layout_marginTop="20sp"
+            tools:ignore="MissingConstraints"
+            app:cornerRadius="40sp"
+            android:textAllCaps="false"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/camera"
+            android:layout_width="130sp"
+            android:layout_height="55sp"
+            android:orientation="vertical"
+            android:text="Camera"
+            app:layout_constraintTop_toBottomOf="@+id/gallery"
+            android:layout_marginTop="20sp"
+            tools:ignore="MissingConstraints"
+            app:cornerRadius="40sp"
+            android:textAllCaps="false"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/alarm"
+            android:layout_width="130sp"
+            android:layout_height="55sp"
+            android:orientation="vertical"
+            android:text="Alarm"
+            app:layout_constraintTop_toBottomOf="@+id/camera"
+            android:layout_marginTop="20sp"
+            tools:ignore="MissingConstraints"
+            app:cornerRadius="40sp"
+            android:textAllCaps="false"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
